@@ -68,3 +68,38 @@ header nav a,
   margin-left: 0.5rem;
   font-size: 1.2rem;
 }
+.container-header {
+  height: 407px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-header span,
+.container-header h1 {
+  font-weight: 600;
+}
+.container-header h1 {
+  font-size: 2.5rem;
+}
+.container-header p {
+  width: 74%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: justify;
+}
+.container-header span {
+  color: #8E2424;
+}
+.box-header {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-header h1,
+.container-header span,
+.container-header p {
+  margin: 1.2rem 0;
+}
