@@ -1,0 +1,23 @@
+@import url(./assets.css);
+/* 
+--family: 'Inter', sans-serif;
+--red: #8E2424;
+--gray: #667085; 
+*/
+
+.container-metricas {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8rem 5rem;
+  padding-top: 0.5rem;
+}
+.box-metricas {
+  width: 25%;
+}
+.box-metricas .metricas {
+  font-size: 50px;
+  color: #8E2424;
+}
