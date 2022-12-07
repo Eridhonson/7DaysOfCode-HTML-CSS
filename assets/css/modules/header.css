@@ -1,10 +1,4 @@
-@import url(./root.css);
-
-/* 
---family: 'Inter', sans-serif;
---red: #8E2424;
---gray: #667085; 
-*/
+@import url(../main.css);
 
 header {
   display: flex;

@@ -1,0 +1,15 @@
+@import url(../main.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 96%;
+}
+body {
+    font-family: var(--family);
+}
+a {
+    text-decoration: none;
+}
