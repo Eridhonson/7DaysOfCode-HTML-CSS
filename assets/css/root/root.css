@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+    --gray: #667085;
+    --red: #8E2424;
+    --blue: #101828;
+    --family: 'Inter', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+html {
+    font-size: 96%;
+}
+a {
+    text-decoration: none;
+}
+body {
+    /* Como a mesma fonte será aplicada a todo o documento ela será declarada no seletor body */
+    font-family: var(--family);
+}

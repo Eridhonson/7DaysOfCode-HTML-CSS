@@ -6,19 +6,6 @@
 --gray: #667085; 
 */
 
-html {
-  font-size: 96%;
-}
-* {
-  margin: 0;
-  padding: 0;
-}
-a {
-  text-decoration: none;
-}
-body {
-  font-family: var(--family);
-}
 header {
   display: flex;
   justify-content: space-around;
@@ -51,6 +38,7 @@ header nav a,
   margin-left: 8rem;
 }
 .box-logo span {
+  color: #3A404E;
   margin-left: 0.5rem;
   font-size: 1.2rem;
 }

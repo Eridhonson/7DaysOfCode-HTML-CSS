@@ -1,4 +1,4 @@
-@import url(./assets.css);
+@import url(./root.css);
 /* 
 --family: 'Inter', sans-serif;
 --red: #8E2424;
@@ -7,7 +7,7 @@
 
 .container-header {
   height: 407px;
-  background-color: #FFFFFF;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,12 +18,14 @@
 }
 .container-header h1 {
   font-size: 2.5rem;
+  color: var(--blue);
 }
 .container-header p {
   width: 74%;
   font-size: 1.2rem;
   font-weight: 400;
   text-align: justify;
+  color: var(--gray);
 }
 .container-header span {
   color: #8E2424;
