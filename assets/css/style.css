@@ -8,10 +8,6 @@
 @import url(./base/reset.css);
 @import url(./base/var.css);
 
-/* html {
-    font-size: 60%;
-} */
-
 /* Cores: */
 
 .text--white {
@@ -29,6 +25,8 @@
 .bg--white {
     background-color: #fff;
 }
+
+/*  Weight */
 
 .section__topic {
     font-weight: 600;
@@ -76,7 +74,7 @@
     margin-left: 1rem;
 }
 
-/* Section */
+/* Cabeçalho: */
 
 .section__header {
     display: flex;
@@ -159,7 +157,7 @@
     margin-top: 1rem;
 }
 
-/* Depoimentos: */
+/* Depoimento: */
 
 .depoimento {
     background-color: bisque;
@@ -187,4 +185,38 @@
 .depoimento__name,
 .depoimento__img {
     margin: 1rem;
+}
+
+/* Rodapé: */
+
+.footer {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    align-items: center;
+    padding: 5rem;
+    gap: 2rem;
+}
+.footer__title {
+    font-size: xx-large;
+}
+.footer__email {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 30%;
+}
+.footer__email__input {
+    padding: .8rem .5rem;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    margin-right: .5rem;
+    width: 100%
+}
+.footer__email__button {
+    padding: .5rem;
+    border: none;
+    border-radius: 5px;
+}
+.footer__copy {
+    font-size: small;
 }
