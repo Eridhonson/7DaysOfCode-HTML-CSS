@@ -4,66 +4,153 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/widescreen-styles.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- <link rel="stylesheet" href="./assets/css/widescreen-styles.css"> -->
     <title>#7DaysOfCode</title>
 </head>
 <body>
     <header>
-        <div class="container-menu">
-            <div class="box-logo">
-                <img src="./assets/images/logo.png" alt="Logotipo da OptimusTech">
-                <span>OptimusTech</span>
+        <div class="header bg--white">
+            <div class="header__menu">
+                <img class="header__menu__img" src="./assets/images/logo.png" alt="Logotipo da OptimusTech">
+                <span class="header__menu__txt">OptimusTech</span>
             </div>
-            <div class="box-menu">
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="#">Produtos</a>
-                    <a href="#">Recursos</a>
-                    <a href="#">Sobre nós</a>
+            <div class="header__menu__nav">
+                <nav class="header__menu__nav__link">
+                    <a class="nav__link text--gray" href="#">Home</a>
+                    <a class="nav__link text--gray" href="#">Produtos</a>
+                    <a class="nav__link text--gray" href="#">Recursos</a>
+                    <a class="nav__link text--gray" href="#">Sobre nós</a>
                 </nav>
             </div>
-        </div>
-        <div class="login">
-            <a href="#" class="sign-in">Entrar</a>
-            <a href="#" class="sign-up">Cadastrar</a>
+            <div class="header__login">
+                <a class="header__login__in text--gray" href="#" >Entrar</a>
+                <a class="header__login__up bg--red text--white" href="#" >Cadastrar</a>
+         </div>
         </div>
     </header>
-    <section class="container-header">
-        <div class="box-header">
-            <span>Sobre  nós</span>
-            <h1>Por que somos diferentes?</h1>
-            <p>Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
+    <section>
+        <div class="section__header bg--white">
+            <span class="section__topic text--red">Sobre  nós</span>
+            <h1 class="section__header__h1">Por que somos diferentes?</h1>
+            <p class="section__header__p text--gray">Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.</p>
         </div>
-    </section>
-    <section class="container-metricas">
-        <div class="box-metricas">
-            <span class="metricas">400+</span>
-            <h2 >Projetos concluídos</h2>
-            <p>Nós ajudamos a construir mais de 400 projetos incríveis.</p>
+    </section> 
+    <section class="section__metricas bg--white">
+        <div class="section__metricas__folder">
+            <span class="folder__id text--red">400+</span>
+            <h2 class="folder__name">Projetos concluídos</h2>
+            <p class="folder__description">Nós ajudamos a construir mais de 400 projetos incríveis.</p>
         </div>
-        <div class="box-metricas">
-            <span class="metricas">100+</span>
-            <h2>Colaboradores</h2>
-            <p>Nós ajudamos a construir mais de 400 projetos incríveis.</p>
+        <div class="section__metricas__folder">
+            <span class="folder__id text--red">100+</span>
+            <h2 class="folder__name">Colaboradores</h2>
+            <p class="folder__description">Temos mais de 100 colaboradores no nosso time que se preocupam com nossos clientes.</p>
         </div>
-        <div class="box-metricas">
-            <span class="metricas">20k</span>
-            <h2>Downloads</h2>
-            <p>Nós ajudamos a construir mais de 400 projetos incríveis.</p></div>
-        <div class="box-metricas">
-            <span class="metricas">500+</span>
-            <h2>Reviews 5 estrelas</h2>
-            <p>Nós ajudamos a construir mais de 400 projetos incríveis.</p>
+        <div class="section__metricas__folder">
+            <span class="folder__id text--red">20k</span>
+            <h2 class="folder__name">Downloads</h2>
+            <p class="folder__description">Nossos projetos que estão disponíveis em lojas já foram baixados mais de 20.000 vezes.</p></div>
+        <div class="section__metricas__folder">
+            <span class="folder__id text--red">500+</span>
+            <h2 class="folder__name">Reviews 5 estrelas</h2>
+            <p class="folder__description">Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
         </div>
     </section>
     <section>
-        <div class="container-talents">
-            <span>Vagas abertas</span>
-            <h2>Estamos procurando por talentos</h2>
-            <p>Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
+        <div class="section__talents bg--white">
+            <span class="section__topic text--red">Vagas abertas</span>
+            <h2 class="section_h2">Estamos procurando por talentos</h2>
+            <p class="section____description text--gray">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
             
-            <img src="./assets/images/Image.png" alt="Grupo de funcionários sorrindo">
+            <img class="section__talents__img" src="./assets/images/Image.png" alt="Grupo de funcionários sorrindo">
+        </div>
+    </section>
+    <section class="bg--white">
+        <div class="vagas center">
+            <h2 class="vagas__titulo">Design</h2>
+            <div  class="vagas__card">
+                <h3 class="vagas__titulo">
+                    Product Designer
+                </h3>
+                <div class="vagas_info">
+                    <span class="vagas__info__time">
+                        Full-time
+                    </span>
+                    <span class="vagas__info__faixa">
+                        Faixa salarial: R$7.000
+                    </span>
+                </div>
+            </div>
+            <!--  -->
+            <div  class="vagas__card">
+                <h3 class="vagas__titulo">
+                    UX Designer
+                </h3>
+                <div class="vagas_info">
+                    <span class="vagas__info__time">
+                        Full-time
+                    </span>
+                    <span class="vagas__info__faixa">
+                        Faixa salarial: R$6.000
+                    </span>
+                </div>
+            </div>
+            <!--  -->
+            <h2 class="vagas__titulo">Desenvolvimento de Software</h2>
+            <div  class="vagas__card">
+                <h3 class="vagas__titulo">
+                    Desenvolvedor(a) iOS
+                </h3>
+                <div class="vagas_info">
+                    <span class="vagas__info__time">
+                        Full-time
+                    </span>
+                    <span class="vagas__info__faixa">
+                        Faixa salarial: R$8.000
+                    </span>
+                </div>
+            </div>
+            <!--  -->
+            <div  class="vagas__card">
+                <h3 class="vagas__titulo">
+                    Desenvolvedor(a) Front-end
+                </h3>
+                <div class="vagas_info">
+                    <span class="vagas__info__time">
+                        Full-time
+                    </span>
+                    <span class="vagas__info__faixa">
+                        Faixa salarial: R$7.000
+                    </span>
+                </div>
+            </div>
+            <div  class="vagas__card">
+                <h3 class="vagas__titulo">
+                    Desenvolvedor(a) Back-end
+                </h3>
+                <div class="vagas_info">
+                    <span class="vagas__info__time">
+                        Full-time
+                    </span>
+                    <span class="vagas__info__faixa">
+                        Faixa salarial: R$8.000
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="depoimento center">
+            <span class="section__topic text--red">
+                Veja o que nossos colaboradores falam sobre nós
+            </span>
+            <span class="depoimento__main depoimento__main--big">
+                OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.
+            </span>
+            <img class="depoimento__img" src="./assets/images/avatar.png" alt="Avatar">
+            <span class="depoimento__name">Júlia Castro</span>
+            <span class="depoimento__job text--gray">Desenvolvedora Web</span>
         </div>
     </section>
 </body>
